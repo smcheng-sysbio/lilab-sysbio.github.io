@@ -4,7 +4,7 @@ body {
 	counter-reset:my;        /* 创建一个计数器my */
 }
 
-h1:after{        
+p1:after{        
         counter-increment:my;        
        content:counter(my)'.';
 }
