@@ -1,7 +1,12 @@
 body {
 	padding-top: 15px;
 	padding-bottom: 0px;
+	counter-reset:my 0;        /* 创建一个计数器my */
 	
+}
+p1:before{        
+        counter-increment:my 1;        
+       content:counter(my)'.';
 }
 
 /* Custom container */
@@ -549,9 +554,4 @@ ul.sponsors {
 #footer address {
 	color: #8F8F8F;
 	font-size: 11px;
-}
-p1 {counter-reset:my 0;        /* 创建一个计数器my */}
-p1:before{        
-        counter-increment:my 1;        
-       content:counter(my)'.';
 }
