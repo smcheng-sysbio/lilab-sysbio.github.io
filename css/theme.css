@@ -1,7 +1,7 @@
 body {
 	padding-top: 15px;
 	padding-bottom: 0px;
-	counter-reset:my 24;        /* 创建一个计数器my */
+	counter-reset:my 26;        /* 创建一个计数器my */
 	
 }
 p1:before{        
