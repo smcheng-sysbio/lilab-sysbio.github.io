@@ -1,15 +1,12 @@
 body {
 	padding-top: 15px;
 	padding-bottom: 0px;
+	counter-reset:my;        /* 创建一个计数器my */
 }
 
-.contaner3 {
-    counter-reset: number 1;
-    counter-increment: number;
-}
-
-.contaner3:after {
-    content: counter(number);
+h1:after{        
+        counter-increment:my;        
+       content:counter(my)'.';
 }
 
 /* Custom container */
