@@ -3,7 +3,7 @@ body {
 	padding-bottom: 0px;
 	
 }
-.p1 {counter-reset:my;        /* 创建一个计数器my */}
+.p1 {counter-reset:my 1;        /* 创建一个计数器my */}
 .p1:before{        
         counter-increment:my;        
        content:counter(my)'.';
