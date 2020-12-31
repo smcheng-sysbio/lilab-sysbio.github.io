@@ -3,9 +3,9 @@ body {
 	padding-bottom: 0px;
 	
 }
-.p1 {counter-reset:my 1;        /* 创建一个计数器my */}
+.p1 {counter-reset:my 0;        /* 创建一个计数器my */}
 .p1:before{        
-        counter-increment:my;        
+        counter-increment:my 1;        
        content:counter(my)'.';
 }
 
